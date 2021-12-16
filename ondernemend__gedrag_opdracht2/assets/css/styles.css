@@ -1,0 +1,58 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#container {
+    background-color: rgb(44, 41, 94);
+    width: 160px;
+    height: 451px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#container h3 {
+    transition: background-color 0.5s;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+}
+
+#container h3:hover {
+    background-color: rgb(153, 153, 153);
+    cursor: pointer;
+}
+
+#topContent {
+    border-bottom: 2px dotted gray;
+}
+
+#container2 {
+    margin-top: 50px;
+    width: fit-content;
+    text-align: center;
+}
+
+#banner {
+    background-color: yellow;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#links {
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin-top: -21px;
+}
+
+#container3 {
+    display: flex;
+    background-color: orangered;
+    width: 500px;
+    height: 100px;
+}
+
+.imageBanners {
+    margin-left: 16px;
+}
